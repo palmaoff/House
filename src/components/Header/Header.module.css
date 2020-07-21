@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  margin-top: 0px;
+  width: 100%;
+  background-color: #2c3d63;
+  padding: 15px 0px;
+}
+
+.header div {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header .nav_container {
+  float: right;
+  margin-right: 5%;
+}
+
+.header .nav_container .nav {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.header .nav_container .nav a {
+  color: #f7f8f3;
+}
+
+.header .nav_container .nav a:hover {
+  color: #f7f8f3bb;
+}
+
+.header .logo {
+  margin-left: 5%;
+}
+
+.header .logo a {
+  color: #addcca;
+}
