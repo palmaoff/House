@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #addcca;
+  margin: 10px auto 0px auto;
+  height: 500px;
+  min-width: 400px;
+}
+
+.item {
+  padding: 10px;
+}

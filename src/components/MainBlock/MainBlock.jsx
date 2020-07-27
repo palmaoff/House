@@ -4,7 +4,6 @@ import css from './MainBlock.module.css'
 const MainBlock = () => {
 	return (
 		<div className={css.container}>
-			<div className={css.field}></div>
 			<div className={css.block}>
 				<div className={css.image}><img src={require("../../dom.png")}></img></div>
 				<div className={css.text}>

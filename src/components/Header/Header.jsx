@@ -1,5 +1,6 @@
 import React from 'react'
 import css from './Header.module.css'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
 	return (
@@ -8,9 +9,9 @@ const Header = () => {
 				<a href="#">logo</a>
 			</div>
 			<div className={css.nav_container}>
-				<div className={css.nav}><a href="#">Главная</a></div>
-				<div className={css.nav}><a href="#">Дома</a></div>
-				<div className={css.nav}><a href="#">Контакты</a></div>
+				<div className={css.nav}><NavLink to="/main">Главная</NavLink></div>
+				<div className={css.nav}><NavLink to="/houses">Дома</NavLink></div>
+				<div className={css.nav}><NavLink to="/contacts">Контакты</NavLink></div>
 			</div>
 		</div>
 	)
