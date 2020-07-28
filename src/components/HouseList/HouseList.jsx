@@ -5,7 +5,7 @@ const HouseList = (props) => {
 
 	const streliza = props.streliza.map((i) => {
 		return (
-			<div>
+			<div className={css.item}>
 				{i.street + ', ' + i.num}
 			</div>
 		)
@@ -13,7 +13,7 @@ const HouseList = (props) => {
 
 	const semiluki = props.semiluki.map((i) => {
 		return (
-			<div>
+			<div className={css.item}>
 				{i.street + ', ' + i.num}
 			</div>
 		)
@@ -21,7 +21,7 @@ const HouseList = (props) => {
 
 	const voronezh = props.voronezh.map((i) => {
 		return (
-			<div>
+			<div className={css.item}>
 				{i.street + ', ' + i.num}
 			</div>
 		)
@@ -29,16 +29,22 @@ const HouseList = (props) => {
 
 	return (
 		<div className={css.wrapper}>
-			<div className={css.item}>
-				Стрелица
+			<div className={css.column}>
+				<div className={css.column_title}>
+					Стрелица
+				</div>
 				{streliza}
 			</div>
-			<div className={css.item}>
-				Воронеж
+			<div className={css.column}>
+				<div className={css.column_title}>
+					Воронеж
+				</div>
 				{voronezh}
 			</div>
-			<div className={css.item}>
-				Семилуки
+			<div className={css.column}>
+				<div className={css.column_title}>
+					Семилуки
+				</div>
 				{semiluki}
 			</div>
 		</div>

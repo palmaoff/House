@@ -31,9 +31,13 @@
   background-color: #2c3d63;
 }
 
+.block .text div {
+  padding: 10px;
+}
+
 .block .text .title {
   text-align: center;
-  margin: 0px auto;
+  margin: 5px auto 0px auto;
   width: 90%;
 }
 
