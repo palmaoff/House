@@ -1,7 +1,10 @@
 .wrapper {
 	background-color: #2c3d63;
-	height: 500px;
-	margin-top: 10px;
+}
+
+.title {
+	font-size: 25px;
+	padding: 45px 5px 5px 145px;
 }
 
 .persons {
@@ -10,6 +13,22 @@
 	align-items: stretch;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	margin: 10px auto 0px auto;
+	margin: 45px auto 0px auto;
 	min-width: 400px;
+}
+
+.feat_img {
+	float: left;
+	border-radius: 50%;
+	margin-right: 2%;
+	width: 20%;
+}
+
+.description {
+	width: 400px;
+	line-height: 20px;
+}
+
+.description div {
+	margin-bottom: 10px;
 }
