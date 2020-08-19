@@ -9,7 +9,9 @@ const Contacts = () => {
 			</div>
 			<div className={css.persons}>
 				<div className={css.person}>
-					<img src="http://lorempixel.com/250/250/sports/1" className={css.feat_img}></img>
+					<div className={css.feat_img}>
+						<img src="http://lorempixel.com/250/250/sports/1" className={css.feat_img}></img>
+					</div>
 					<div className={css.description}>
 						<div className={css.position}>
 							Директор:
@@ -21,7 +23,9 @@ const Contacts = () => {
 					</div>
 				</div>
 				<div className={css.person}>
-					<img src="http://lorempixel.com/250/250/sports/1" className={css.feat_img}></img>
+					<div className={css.feat_img}>
+						<img src="http://lorempixel.com/250/250/sports/1" className={css.feat_img}></img>
+					</div>
 					<div className={css.description}>
 						<div className={css.position}>
 							Заместитель:

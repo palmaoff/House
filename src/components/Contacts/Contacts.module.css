@@ -19,7 +19,7 @@
 	min-width: 400px;
 }
 
-.feat_img {
+.feat_img img {
 	float: left;
 	border-radius: 50%;
 	margin-right: 2%;
@@ -31,6 +31,11 @@
 	line-height: 20px;
 }
 
+.position {
+	background-color: #f7f8f3;
+	margin-left: 85px;
+}
+
 .description div {
 	margin-bottom: 10px;
 }
@@ -38,5 +43,5 @@
 .mail {
 	margin: 15px 5px 5px 200px;
 	background-color: #f7f8f3;
-	width: 269px;
+	width: 315px;
 }
