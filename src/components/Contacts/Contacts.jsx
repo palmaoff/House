@@ -17,7 +17,7 @@ const Contacts = () => {
 						<div className={css.name}>
 							Науменко Максим Александрович
 						</div>
-						<div className={css.phone}>8-915-540-33-99</div>
+						<div className={css.phone}>8-980-349-67-65</div>
 					</div>
 				</div>
 				<div className={css.person}>

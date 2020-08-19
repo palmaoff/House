@@ -1,0 +1,39 @@
+.wrapper {
+	background-color: #2c3d63;
+	margin: 10px auto 0px auto;
+	height: 500px;
+	min-width: 400px;
+}
+
+.map_container {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.map {
+	margin-top: 25px;
+	padding: 10px;
+	z-index: 1;
+}
+
+.map_title {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #f7f8f3;
+}
+
+.map_adress {
+	margin-top: 20px;
+	font-size: 15px;
+	color: #f7f8f3;
+}
+
+.title {
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+}

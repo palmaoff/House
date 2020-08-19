@@ -6,6 +6,7 @@ import Bottom from './components/Bottom/Bottom'
 import { BrowserRouter,Route } from 'react-router-dom'
 import HouseListContainer from './components/HouseList/HouseListContainer'
 import Contacts from './components/Contacts/Contacts'
+import Maps from './components/Maps/Maps'
 import ScrollToTheTop from './components/ScrollToTheTop'
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <>
             <MainBlock />
             <Contacts />
+            <Maps />
           </>
         } />
       <Route path='/houses' component={HouseListContainer} />
