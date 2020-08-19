@@ -9,7 +9,7 @@ const Header = () => {
 				<a href="#">logo</a>
 			</div>
 			<div className={css.nav_container}>
-				<div className={css.nav}><NavLink to="/main">Главная</NavLink></div>
+				<div className={css.nav}><NavLink to="/">Главная</NavLink></div>
 				<div className={css.nav}><NavLink to="/houses">Дома</NavLink></div>
 				<div className={css.nav}><NavLink to="/contacts">Контакты</NavLink></div>
 			</div>

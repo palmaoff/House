@@ -14,7 +14,7 @@ const App = () => {
       <ScrollToTheTop />
       <Header />
       <div className="field"></div>
-      <Route path='/main'
+      <Route exact path='/'
         render={() =>
           <>
             <MainBlock />
