@@ -30,8 +30,14 @@ const Contacts = () => {
 							Корсун Елена Александровна
 						</div>
 						<div className={css.phone}>8-915-540-33-99</div>
-					</div>	
+					</div>
 				</div>
+			</div>
+			<div className={css.title}>
+				Почта:
+			</div>
+			<div className={css.mail}>
+				uk_polet@mail.ru
 			</div>
 		</div>
 	)
