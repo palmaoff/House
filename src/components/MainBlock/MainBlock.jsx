@@ -5,7 +5,7 @@ const MainBlock = () => {
 	return (
 		<div className={css.container}>
 			<div className={css.block}>
-				<div className={css.image}><img src={require("../../dom.png")}></img></div>
+				<div className={css.image}><img src={require("../../dom.png")} alt="Что-то пошло не так("></img></div>
 				<div className={css.text}>
 					<div className={css.title}>
 						Управляющая Компания "Полёт"

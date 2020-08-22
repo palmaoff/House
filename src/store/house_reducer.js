@@ -17,7 +17,7 @@ let init_state = {
 	semiluki: [
 		{ id: 1, street: 'ул. Гагарина', num: '36' },
 		{ id: 2, street: '25 лет Октября', num: '122' },
-		{ id: 1, street: 'ул. Крупской', num: '7' }
+		{ id: 3, street: 'ул. Крупской', num: '7' }
 	]
 }
 

@@ -1,4 +1,4 @@
-import React,{ useEffect } from 'react'
+import React from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import MainBlock from './components/MainBlock/MainBlock'
@@ -19,8 +19,8 @@ const App = () => {
         render={() =>
           <>
             <MainBlock />
-            <Contacts />
             <Maps />
+            <Contacts />
           </>
         } />
       <Route path='/houses' component={HouseListContainer} />

@@ -2,6 +2,7 @@
 	background-color: #2c3d63;
 	margin-top: 10px;
 	padding-bottom: 45px;
+	min-width: 400px;
 }
 
 .title {
@@ -17,6 +18,10 @@
 	flex-wrap: wrap;
 	margin: 45px auto 0px auto;
 	min-width: 400px;
+}
+
+.person {
+	margin-bottom: 10px;
 }
 
 .feat_img img {
@@ -40,8 +45,19 @@
 	margin-bottom: 10px;
 }
 
+.adress {
+	margin: 15px 0px;
+	margin-left: 13%;
+}
+
+.mail_img img {
+	float: left;
+	margin-right: 1%;
+	margin-top: 2px;
+	width: 20px;
+}
+
 .mail {
-	margin: 15px 5px 5px 200px;
-	background-color: #f7f8f3;
-	width: 315px;
+	color: #678177;
+	margin-left: 5px;
 }

@@ -1,16 +1,17 @@
 import React from 'react'
 import css from './Maps.module.css'
-import { YMaps,Map,Placemark } from 'react-yandex-maps';
+import { YMaps, Map } from 'react-yandex-maps'
+// import Placemark from 'react-yandex-maps'
 
 const mapData = {
 	center: [55.751574,37.573856],
 	zoom: 5,
 };
 
-const coordinates = [
-	[55.684758,37.738521],
-	[57.684758,39.738521]
-];
+// const coordinates = [
+// 	[55.684758,37.738521],
+// 	[57.684758,39.738521]
+// ];
 
 const Maps = () => {
 	return (
@@ -25,7 +26,7 @@ const Maps = () => {
 							Стрелица
 					</div>
 						<Map defaultState={mapData}>
-							{coordinates.map(coordinate => <Placemark geometry={coordinate} />)}
+							{/* {coordinates.map(coordinate => <Placemark geometry={coordinate} />)} */}
 						</Map>
 						<div className={css.map_adress}>
 							ул. Транспортная д. 14/5 one
@@ -36,7 +37,7 @@ const Maps = () => {
 							Воронеж
 					</div>
 						<Map defaultState={mapData}>
-							{coordinates.map(coordinate => <Placemark geometry={coordinate} />)}
+							{/* {coordinates.map(coordinate => <Placemark geometry={coordinate} />)} */}
 						</Map>
 						<div className={css.map_adress}>
 							ул. Транспортная д. 14/5 two
@@ -47,7 +48,7 @@ const Maps = () => {
 							Семилуки
 					</div>
 						<Map defaultState={mapData}>
-							{coordinates.map(coordinate => <Placemark geometry={coordinate} />)}
+							{/* {coordinates.map(coordinate => <Placemark geometry={coordinate} />)} */}
 						</Map>
 						<div className={css.map_adress}>
 							ул. Транспортная д. 14/5 original

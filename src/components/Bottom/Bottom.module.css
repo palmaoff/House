@@ -2,14 +2,37 @@
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: #addcca;
   margin: 10px auto 0px auto;
-  height: 500px;
+  /* height: 500px; */
   min-width: 400px;
+  padding-top: 15px;
+  padding-bottom: 40px;
 }
 
-.item {
-  padding: 10px;
+.column {
+  width: 33%;
+  text-align: center;
+  font-size: 15px;
 }
+
+.adress {
+  font-size: 13px;
+  padding-top: 15px;
+  color: #565a61;
+}
+
+.nav {
+  padding-top: 15px;
+}
+
+.nav a {
+  color: #2c3d63;
+}
+
+.nav a:hover {
+  color: #4e6db1;
+}
+

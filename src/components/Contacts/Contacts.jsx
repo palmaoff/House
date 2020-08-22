@@ -10,7 +10,7 @@ const Contacts = () => {
 			<div className={css.persons}>
 				<div className={css.person}>
 					<div className={css.feat_img}>
-						<img src="http://lorempixel.com/250/250/sports/1" className={css.feat_img}></img>
+						<img src="http://lorempixel.com/250/250/sports/1" alt="Что-то пошло не так(" className={css.feat_img}></img>
 					</div>
 					<div className={css.description}>
 						<div className={css.position}>
@@ -24,7 +24,7 @@ const Contacts = () => {
 				</div>
 				<div className={css.person}>
 					<div className={css.feat_img}>
-						<img src="http://lorempixel.com/250/250/sports/1" className={css.feat_img}></img>
+						<img src="http://lorempixel.com/250/250/sports/1" alt="Что-то пошло не так(" className={css.feat_img}></img>
 					</div>
 					<div className={css.description}>
 						<div className={css.position}>
@@ -40,8 +40,13 @@ const Contacts = () => {
 			<div className={css.title}>
 				Почта:
 			</div>
-			<div className={css.mail}>
-				uk_polet@mail.ru
+			<div className={css.adress}>
+				<div className={css.mail_img}>
+						<img src={require("../../mail.png")} alt="Что-то пошло не так("></img>
+					</div>
+				<div className={css.mail}>
+					uk_polet@mail.ru
+				</div>
 			</div>
 		</div>
 	)

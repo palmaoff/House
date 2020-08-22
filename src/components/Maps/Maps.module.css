@@ -1,7 +1,6 @@
 .wrapper {
 	background-color: #2c3d63;
 	margin: 10px auto 0px auto;
-	height: 500px;
 	min-width: 400px;
 }
 
@@ -36,4 +35,5 @@
 	font-size: 25px;
 	width: 100%;
 	text-align: center;
+	color: #addcca;
 }

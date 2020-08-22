@@ -5,7 +5,7 @@ const HouseList = (props) => {
 
 	const streliza = props.streliza.map((i) => {
 		return (
-			<div className={css.item}>
+			<div className={css.item} key={i.id}>
 				{i.street + ', ' + i.num}
 			</div>
 		)
@@ -13,7 +13,7 @@ const HouseList = (props) => {
 
 	const semiluki = props.semiluki.map((i) => {
 		return (
-			<div className={css.item}>
+			<div className={css.item} key={i.id}>
 				{i.street + ', ' + i.num}
 			</div>
 		)
@@ -21,7 +21,7 @@ const HouseList = (props) => {
 
 	const voronezh = props.voronezh.map((i) => {
 		return (
-			<div className={css.item}>
+			<div className={css.item} key={i.id}>
 				{i.street + ', ' + i.num}
 			</div>
 		)
